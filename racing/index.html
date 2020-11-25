@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            div{
+                width: 1350px;
+                height: 500px;
+                background-color: gray;
+            }
+            hr{
+                border-top: 50px dashed red ;
+                background-color: green;
+                margin-top:110px;
+
+            }
+            #first {   
+            position: relative;
+            animation-name: move;
+            animation-duration: 3s; 
+             animation-delay: 2s;
+            /* animation: move 5s infinite;
+            animation-delay: 2s; */
+
+            }
+            #second{
+                
+            position: relative;
+            animation-name: move;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            /* animation: move 4s infinite;
+            animation-delay: 2s; */
+
+            
+            }
+
+            @keyframes move {
+                
+  from {left: 0px;}
+  to {left: 1200px;}
+}
+        </style>
+
+    </head>
+    <body>
+       
+
+      <div >
+          <p id="first"> 
+              <img src="img/1.ico">
+            <p>
+              <hr>
+              <p id="second"> 
+                <img src="img/3.ico">
+              <p>
+      </div>
+      
+
+    </body>
+</html>
